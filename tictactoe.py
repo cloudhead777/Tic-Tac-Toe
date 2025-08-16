@@ -130,7 +130,4 @@ def minimax(board):
     if terminal(board):
         return None
 
-    if player(board) == X:
-        return maxvalue(board)[1]
-    else:
-        return minvalue(board)[1]
+    return maxvalue(board)[1] if player(board) == X else minvalue(board)[1]
