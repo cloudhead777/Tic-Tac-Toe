@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly mark font files as binary (don’t modify line endings)
+*.ttf binary
+*.otf binary
