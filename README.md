@@ -20,7 +20,12 @@ A simple Tic-Tac-Toe game built using **Python**. This is a console-based implem
    cd Tic-Tac-Toe
    ```  
 
-3. **Run the game:**  
+3. **Install dependencies:**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the game:**
    ```bash
    python tic_tac_toe.py
-   ```  
+   ```
+  
